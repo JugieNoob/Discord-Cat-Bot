@@ -7,7 +7,6 @@ from datetime import datetime
 import random
 
 bot = commands.Bot(".", intents=discord.Intents.all())
-guildid = 1232010287633272903
 
 flairwhitelist = ["Cat Picture", "Cat Picture - OC", "Adoption"]
 filetypes = ["jpeg", "jpg", "webp", "png", "gif"]
@@ -36,8 +35,7 @@ def fetchCat():
         for image_item in gallery.values():
             image =image_item["s"]["u"]
             break
-            #largest_image = image_item['s']
-           #image_url = largest_image['u']
+        
     else:
         for file in filetypes:
             if file in submissions[post].url:
@@ -60,7 +58,7 @@ async def on_ready():
     print(f'Logged in as {bot.user}')
     
     
-@bot.command(name="cat") #, guild=discord.Object(id=guildid)
+@bot.command(name="cat")
 async def self(ctx):
 
     catembed = fetchCat()    
