@@ -1,6 +1,6 @@
 # Discord Cat Bot 😺
 
-<img src="icon.png" width=300>
+<img src="imgs/icon.png" width=300>
 
 ## Table of Contents 📝
 - [What is this ❓](#what-is-this-question)
@@ -17,7 +17,7 @@ If you encounter any problems with the bot please make an issue [here](https://g
 
 # Showcase :tv:
 ### 1. The Cat Bot displaying the post.
-<img src="catbotshowcase.png" width=300>
+<img src="imgs/catbotshowcase.png" width=300>
 
 
 ## Dependencies :page_with_curl:
